@@ -24,7 +24,7 @@ const Footer = () => {
           const { id, href, icon } = socialicon
           return (
             <li key={id}>
-              <a href={href} class='footer-icon' target='_blank' rel='noopener'>
+              <a href={href} class='footer-icon' rel='noopener' target='_blank'>
                 <i class={icon}></i>
               </a>
             </li>

@@ -17,7 +17,7 @@ const Tours = () => {
           return (
             <article className='tour-card' key={id}>
               <div className='tour-img-container'>
-                <img src={image} className='tour-img' />
+                <img src={image} className='tour-img' alt='views' />
                 <p className='tour-date'>{date}</p>
               </div>
               {/* <!-- tour-info --> */}
@@ -40,7 +40,7 @@ const Tours = () => {
         })}
       </div>
       <div className='tour-btn'>
-        <a href='#' className='btn'>
+        <a href='#tour' className='btn'>
           all tour
         </a>
       </div>

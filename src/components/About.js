@@ -26,7 +26,7 @@ const About = () => {
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
           </p>
-          <a href='#' className='btn'>
+          <a href='#about' className='btn'>
             read more
           </a>
         </article>
